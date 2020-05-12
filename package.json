@@ -1,0 +1,25 @@
+{
+  "license": "UNLICENSED",
+  "scripts": {
+    "js": "nodemon --exec babel-node --env-name development index.js",
+    "ts": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@types/node": "^13.13.5",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "babel-preset-minify": "^0.5.1",
+    "core-js": "^3.6.5",
+    "eslint": "^6.8.0",
+    "eslint-plugin-class-property": "^1.1.0",
+    "nodemon": "^2.0.3",
+    "regenerator-runtime": "^0.13.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  }
+}
